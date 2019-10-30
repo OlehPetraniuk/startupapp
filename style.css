@@ -293,3 +293,261 @@ a img.aligncenter {
     z-index: 100000;
     /* Above WP toolbar. */
 }
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+
+.top-bar{
+	background: #121212;	
+	padding: 4px 0px;
+}
+
+.header-nav .navbar-toggler span {
+  background: #ffffff;
+}
+
+.header-nav .navbar-brand {
+	color: #111111;
+	font-weight: 800;
+	position: relative;
+	font-size: 23px;
+}
+.header-nav .navbar-brand span {
+	 width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    right: -9px;
+    float: left;
+}
+
+.right-btn a{
+	display: inline-block;
+	padding: 5px 20px;
+	font-size: 18px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	background-color: #AD1457;
+	line-height: 25px;
+	float: right;
+	font-weight: 500;
+}
+
+.right-btn a:hover{
+	background-color: #C62828;
+	color: #ffffff;
+	border: 1px solid #C62828;
+}
+
+/*Navbar Toogle*/
+.navbar-toggler {
+	background: #C62828;
+	border: none;
+	padding: 10px 6px;
+	outline: none !important;
+}
+.navbar-toggler span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	background: #fff;
+}
+.navbar-toggler span + span {
+	margin-top: 4px;
+	width: 18px;
+	margin-left: 4px;
+}
+.navbar-toggler span + span + span {
+	width: 10px;
+	margin-left: 11px;
+}
+/**/
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 8px 15px;
+	font-size: 16px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: #AD1457;
+	color: #ffffff;
+	border-radius: 2px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active{
+	background: #AD1457;
+	color: #ffffff;
+	font-weight: 600;
+	border-radius: 2px;
+}
+
+
+
+.megamenu .nav,
+.megamenu .collapse,
+.megamenu .dropup,
+.megamenu .dropdown {
+    position: static;
+}
+
+.megamenu .container-fluid {
+    position: relative;
+}
+
+.megamenu .dropdown-menu {
+    left: auto;
+}
+
+.megamenu .megamenu-content {
+    padding: 20px 30px;
+}
+
+.megamenu .dropdown.megamenu-fw .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+
+.megamenu .list-unstyled {
+    min-width: 200px;
+}
+
+.header_style_01 {
+    background-color: rgba(255, 255, 255);
+    display: block;
+    left: 0;
+    padding: 10px 0px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+}
+
+.header_style_01 .navbar-default {
+    background-color: transparent;
+    border: 0;
+}
+
+.header_style_01 .navbar,
+.header_style_01 .navbar-nav,
+.header_style_01 .navbar-default,
+.header_style_01 .nav {
+    margin-bottom: 0 !important;
+}
+
+.header_style_01 .navbar-brand {
+    padding: 2px 15px 0 15px;
+	height: auto;
+}
+
+.header_style_01 .navbar-default .navbar-nav > li > a {
+    border-radius: 0;
+    color: #222222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+.header_style_01 .navbar-default .navbar-nav > li a {
+    background-color: transparent !important;
+}
+
+.header_style_01 .navbar-default .navbar-nav > li:hover a,
+.header_style_01 .navbar-default .navbar-nav > li:focus a {
+    color: #C62828;
+}
+
+.header_style_01 .navbar-right > li {
+    margin-top: 2px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.header_style_01 .navbar-right > li > a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+li.social-links {
+    margin: 0 8px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+li.social-links a {
+    padding: 0px 0 !important;
+	color: #ffffff;
+	display: inline-block;
+}
+
+li.social-links a:hover {
+	color: #C62828;
+}
+
+.header_style_01.fixed-menu{
+	position: fixed;
+	visibility: hidden;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	padding: 0px 0px;
+	background: #ffffff;
+	z-index: 0;
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	z-index: 999;
+	opacity: 1;
+	visibility: visible;
+	-ms-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-op-animation-name: fadeInDown;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-ms-animation-duration: 500ms;
+	-moz-animation-duration: 500ms;
+	-op-animation-duration: 500ms;
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+	-ms-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-op-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-ms-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-op-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+.header_style_01.fixed-menu{
+	padding: 15px 0px;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
+}
+
+.navbar-nav li {
+    position: relative;
+}
+
+.navbar-nav span {
+    font-size: 24px;
+    position: absolute;
+    right: 2px;
+    top: 13px;
+}
+
+body.app_version .header_style_01.fixed-menu{
+	top: 0px;
+}
