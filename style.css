@@ -1804,3 +1804,38 @@ body.app_version .bootstrap-select .btn-light:hover{
     padding: 50px 60px;
     overflow: hidden;
 }
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: none;
+}
+
+.footer-distributed .footer-links {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: 0 10px;
+    color: #666;
+    padding: 0;
+	text-align: center;
+}
+
+.footer-distributed .footer-company-name a{
+	color: #ffffff;
+}
+
+.footer-distributed .footer-company-name a:hover{
+	color: #AD1457;
+}
