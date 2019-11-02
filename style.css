@@ -2004,3 +2004,54 @@ body.app_version .bootstrap-select .btn-light:hover{
     -o-border-radius: 50%;
     border-radius: 50%
 }
+
+/*------------------------------------------------------------------
+    BUTTONS
+-------------------------------------------------------------------*/
+
+.navbar-default .btn-light {
+    padding: 0 20px;
+    margin-left: 15px;
+}
+
+.btn {
+    border: 0 !important;
+}
+
+.nav-pills,
+.effect-1:after,
+.nav-pills > li > a,
+.global-radius,
+.btn-brd {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.btn-light {
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 1px solid #ffffff !important;
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.btn-dark {
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 1px solid #ececec !important;
+    color: #1f1f1f;
+    background-color: transparent;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+body.app_version .dev-list .widget-title small{
+	font-size: 14px;
+}
